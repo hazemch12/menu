@@ -1,28 +1,28 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f8f8;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0e6d6;  /* Couleur claire et chaude */
     color: #333;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 header {
-    background-color: #333;
+    background-color: #8d5c3e; /* Couleur terreuse, style berbère */
     color: white;
-    padding: 20px 0;
-}
-
-h1 {
-    margin: 0;
-}
-
-.menu {
     padding: 20px;
+    font-size: 2em;
+}
+
+header p {
+    font-size: 1.2em;
+    font-style: italic;
+    margin-top: 5px;
 }
 
 h2 {
-    color: #444;
+    color: #6f3f2b; /* Couleur chaude pour les titres */
+    text-decoration: underline;
 }
 
 ul {
@@ -31,5 +31,14 @@ ul {
 }
 
 li {
+    font-size: 1.2em;
     margin: 10px 0;
+    padding: 5px;
+    background-color: #e2cfa6; /* Couleur sable */
+    border-radius: 5px;
+}
+
+ul li:hover {
+    background-color: #cfa27f; /* Effet de survol */
+    cursor: pointer;
 }
